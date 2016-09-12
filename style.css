@@ -1,0 +1,123 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imgs/desk.jpg);
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    padding-top: 8%;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    width: 54%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 23%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lessons {
+    margin-top: 20px;
+    width: 635px;
+    margin-left: 25%;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 125px;
+}
+
+.lessons .item img {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.lessons img:first-child {
+    margin-top: 20px;
+    margin-left: 93%;
+}
+
+.caption {
+    display: block;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    width: 117%;
+    margin-left: 78px;
+}
+
+.register {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+    .register input {
+        background: rgba(255, 255, 255, 0.25);
+        font-family: 'Open Sans';
+        color: #fff;
+        padding: 10px 163px 10px 5px;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .register .button {
+        font-family: 'Open Sans';
+        background-color: #f25757;
+        color: #fff;
+        padding: 9px 60px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+        .register .button:hover {
+            background-color: #e04444;
+            cursor: pointer;
+        }
